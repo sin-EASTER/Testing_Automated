@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Automatic {
 
 	public static void main(String[] args)  throws InterruptedException{
-		System.setProperty("webdriver.chrome.driver" , "C:\\Users\\Abhijit\\eclipse-workspace\\selenium_auto\\chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver" , "C:\\Users\\Aryan\\eclipse-workspace\\selenium_auto\\chrome\\chromedriver.exe");
         ChromeDriver driver=new ChromeDriver();
 		String url="https://www.thesparksfoundationsingapore.org/";
 		driver.manage().window().maximize();
