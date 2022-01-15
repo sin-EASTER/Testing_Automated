@@ -18,9 +18,9 @@ public class Automatic {
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Why Join Us")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.name("Name")).sendKeys("Onkita Saha");
+		driver.findElement(By.name("Name")).sendKeys("Aryan Mukherjee");
 		Thread.sleep(3000);
-		driver.findElement(By.name("Email")).sendKeys("sahaonkita123@gmail.com");
+		driver.findElement(By.name("Email")).sendKeys("aryan200035@gmail.com");
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Brand Ambassador")).click();
 		Thread.sleep(3000);
